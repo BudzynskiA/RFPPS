@@ -19,16 +19,16 @@
 
      <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}"method="post">
-    	<input type="text" name="AT_KM" placeholder="AT_KM" required="required" />
-    	<input type="text" name="CZ_KM" placeholder="CZ_KM" required="required" />
-    	<input type="text" name="DE_KM" placeholder="DE_KM" required="required" />
-    	<input type="text" name="EE_KM" placeholder="EE_KM" required="required" />
-    	<input type="text" name="HU_KM" placeholder="HU_KM" required="required" />
-    	<input type="text" name="LT_KM" placeholder="LT_KM" required="required" />
-    	<input type="text" name="LV_KM" placeholder="LV_KM" required="required" />
-    	<input type="text" name="PL_KM" placeholder="PL_KM" required="required" />
-    	<input type="text" name="SE_KM" placeholder="SE_KM" required="required" />
-    	<input type="text" name="SK_KM" placeholder="SK_KM" required="required" />
+    	Kilometers in Austria: <input type="text" name="AT_KM" placeholder="0" required="required" />
+    	Kilometers in Czech:<input type="text" name="CZ_KM" placeholder="0" required="required" />
+    	Kilometers in Germany:<input type="text" name="DE_KM" placeholder="0" required="required" />
+    	Kilometers in Estonia:<input type="text" name="EE_KM" placeholder="0" required="required" />
+    	Kilometers in Hungary:<input type="text" name="HU_KM" placeholder="0" required="required" />
+    	Kilometers in Lithuania:<input type="text" name="LT_KM" placeholder="0" required="required" />
+    	Kilometers in Latvia:<input type="text" name="LV_KM" placeholder="0" required="required" />
+    	Kilometers in Poland:<input type="text" name="PL_KM" placeholder="0" required="required" />
+    	Kilometers in Sweden:<input type="text" name="SE_KM" placeholder="0" required="required" />
+    	Kilometers in Slovakia:<input type="text" name="SK_KM" placeholder="0" required="required" />
 
         <button type="submit" class="btn">Predict</button>
     </form>
